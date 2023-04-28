@@ -4,7 +4,7 @@ import nltk
 from nltk.corpus import stopwords
 path=os.getcwd()+"\\data\miracle_in_the_andes.txt"
 
-# #Added encoding="utf8" to fix UnicodeDecodeError: 'charmap' codec can't decode byte X in position Y:
+#Added encoding="utf8" to fix UnicodeDecodeError: 'charmap' codec can't decode byte X in position Y:
 with open(path,"r",encoding="utf8") as files:
     book=files.read()
 #
